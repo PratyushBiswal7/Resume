@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+#main{
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 3px 1px lightgray;
+    padding: 20px;
+    column-gap: 50px;
+    border: 2px solid gray;
+}
+.personal{
+    height: 287px;
+    width: 300px;
+    background-color: #5271ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal > #avt{
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+}
+.personal > h1,p{
+    color: white;
+}
+.personal> h1{
+    font-size: 24px;
+}
+div > #git{
+    height: 18px;
+    width: 18px;
+}
+.personal > #link{
+    gap: 30px;
+}
+#link{
+    display: flex;
+    padding-bottom: 2px;
+    justify-content: space-between;
+}
+
+.info{
+    width: 300px;
+    background-color: #3c4240;
+    color: white;
+}
+#contact > h2{
+    font-size: 24px;
+    text-decoration: underline;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#contact > p{
+    font-size: 16px;
+    padding-left: 40px;
+}
+#skills > h2{
+    font-size: 24px;
+    text-decoration: underline;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#skills > p{
+    font-size: 16px;
+    padding-left: 40px;    
+}
+#skills> .skill-progress{
+    padding-left: 40px;
+    margin-top: -9px; 
+    margin-bottom: 5px;
+}
+
+#Certificates> h2{
+    font-size: 24px;
+    text-decoration: underline;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#Certificates> p{
+    font-size: 16px;
+    padding-left: 40px; 
+}
+#Certificates{
+    padding-bottom: 5px;
+}
+#obj{
+        position: absolute;
+        top: 20px;
+        left: 370px;
+
+}
+#obj>h2{
+    text-decoration: underline;
+}
+#obj>p{
+    color: black;
+}
+#work{
+    position: absolute;
+    left: 370px;
+    top: 170px
+}
+#work>h2{
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: -2px;
+}
+.c>p{
+    color: black;
+    margin-top: -10px;
+}
+.wk{
+    display: flex;
+    justify-content: space-between;
+}
+.c{
+    margin-top: -25px;
+}
+#proj{
+    position: absolute;
+    left: 370px;
+    top:620px;
+}
+#proj > h2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.pc{
+    margin-bottom: 30px;
+}
+.pc>p{
+    color: black;
+    margin-top: -7px;
+}
+#edu{
+    position: absolute;
+    left: 370px;
+    top:945px
+}
+#edu>h2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+#edu>h3{
+    margin-top: -5px;
+}
+#edu>p{
+    color: black;
+}
